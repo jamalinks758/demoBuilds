@@ -1122,7 +1122,7 @@ footer a { color: var(--fire-light); text-decoration: none; }
   </div>
 </section>
 
-<!-- EXPERIENCE SECTION -->
+<!-- EXPERIENCE SECTION 
 <section class="exp-section">
   <div class="section-eyebrow reveal">Why Island Bites</div>
   <div class="section-title reveal" style="margin-bottom:32px;">THE ISLAND<br/>DIFFERENCE</div>
@@ -1146,7 +1146,7 @@ footer a { color: var(--fire-light); text-decoration: none; }
       <div class="exp-desc">No apps, no accounts, no hassle. Build your order here, send it to WhatsApp in one tap.</div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- FINAL CTA -->
 <div class="final-cta reveal">
@@ -1460,7 +1460,7 @@ function sendToWhatsApp() {
     '',
     `🔗 Ordered via: ${SITE_URL}`
   ].join('\n');
-  window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`mailto:jamalinks758@gmail.com?subject=${encodeURIComponent('🍽️ Island Bites Order')}&body=${encodeURIComponent(msg)}`, '_blank');
 }
 
 function openCart() {
